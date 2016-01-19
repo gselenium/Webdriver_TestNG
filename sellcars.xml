@@ -1,0 +1,15 @@
+<!-- This is my Sellcars suite to execute all the test cases in the sellcars -->
+<suite name="sellcars">
+	<test name="LocateDealer">
+		<classes>
+			<class name="com.gktech.sellcars.LocateDealer"></class>
+		</classes>
+	</test>
+
+	<test name="SearchCar">
+		<classes>
+			<class name="com.gktech.sellcars.SearchCar"></class>
+		</classes>
+	</test>
+
+</suite>

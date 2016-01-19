@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [usedcars]">
+  <test name="SearchUsedCars">
+    <classes>
+      <class name="com.gktech.usedcars.SearchUsedCars"/>
+    </classes>
+  </test> <!-- SearchUsedCars -->
+  <test name="UsedCarValuation">
+    <classes>
+      <class name="com.gktech.usedcars.UsedCarValuation"/>
+    </classes>
+  </test> <!-- UsedCarValuation -->
+  <test name="SearchUsedCars(failed)">
+    <classes>
+      <class name="com.gktech.usedcars.SearchUsedCars">
+        <methods>
+          <include name="checkTestCaseSkip"/>
+          <include name="searchUsedCars" invocation-numbers="2 3"/>
+        </methods>
+      </class> <!-- com.gktech.usedcars.SearchUsedCars -->
+      <class name="com.gktech.usedcars.UsedCarValuation">
+        <methods>
+          <include name="checkTestCaseSkip"/>
+          <include name="checkSuiteSkip"/>
+        </methods>
+      </class> <!-- com.gktech.usedcars.UsedCarValuation -->
+    </classes>
+  </test> <!-- SearchUsedCars(failed) -->
+  <test name="UsedCarValuation(failed)">
+    <classes>
+      <class name="com.gktech.usedcars.UsedCarValuation">
+        <methods>
+          <include name="usedCarValuation"/>
+          <include name="checkTestCaseSkip"/>
+          <include name="checkSuiteSkip"/>
+        </methods>
+      </class> <!-- com.gktech.usedcars.UsedCarValuation -->
+      <class name="com.gktech.usedcars.SearchUsedCars">
+        <methods>
+          <include name="checkTestCaseSkip"/>
+        </methods>
+      </class> <!-- com.gktech.usedcars.SearchUsedCars -->
+    </classes>
+  </test> <!-- UsedCarValuation(failed) -->
+</suite> <!-- Failed suite [usedcars] -->

@@ -1,0 +1,14 @@
+15/01/2016 13:59:19 devpinoyLogger Logs are loading or generating correctly
+15/01/2016 13:59:19 devpinoyLogger Properties files are loading correctly
+15/01/2016 13:59:19 devpinoyLogger Excel files are loading correctly
+15/01/2016 13:59:20 devpinoyLogger Verifiying newcars suite run status
+15/01/2016 13:59:20 devpinoyLogger Verifing Login test case runmode status
+15/01/2016 13:59:20 devpinoyLogger Getting Login test case runmodes
+15/01/2016 13:59:20 devpinoyLogger Govardhan===selenium123
+15/01/2016 13:59:20 devpinoyLogger Browser is opening for to execute Carwle Login test case:
+15/01/2016 13:59:28 devpinoyLogger executing Carwle Login test case
+15/01/2016 13:59:36 devpinoyLogger Runmode of the Login test case is set as no, so skipping row number: 1
+15/01/2016 13:59:36 devpinoyLogger Naresh===java123
+15/01/2016 13:59:36 devpinoyLogger Browser is opening for to execute Carwle Login test case:
+15/01/2016 13:59:43 devpinoyLogger executing Carwle Login test case
+15/01/2016 13:59:52 devpinoyLogger Runmode of the Login test case is set as no, so skipping row number: 3

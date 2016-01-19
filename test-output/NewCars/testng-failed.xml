@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [NewCars]">
+  <test name="Login(failed)">
+    <classes>
+      <class name="com.gktech.newcars.Registration">
+        <methods>
+          <include name="checkSuiteSkip"/>
+        </methods>
+      </class> <!-- com.gktech.newcars.Registration -->
+      <class name="com.gktech.newcars.Login">
+        <methods>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.gktech.newcars.Login -->
+    </classes>
+  </test> <!-- Login(failed) -->
+  <test name="Registration(failed)">
+    <classes>
+      <class name="com.gktech.newcars.Registration">
+        <methods>
+          <include name="checkSuiteSkip"/>
+          <include name="registration"/>
+        </methods>
+      </class> <!-- com.gktech.newcars.Registration -->
+    </classes>
+  </test> <!-- Registration(failed) -->
+</suite> <!-- Failed suite [NewCars] -->
