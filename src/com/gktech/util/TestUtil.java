@@ -61,7 +61,7 @@ public class TestUtil {
 		for(int rowNum=2;rowNum<=rows;rowNum++){
 			for(int colNum=0;colNum<=cols-2;colNum++){
 				data[rowNum-2][colNum]=xls.getCellData(sheetName, colNum, rowNum);
-				//System.out.print(xls.getCellData(sheetName, colNum, rowNum)+"===");
+				System.out.print(xls.getCellData(sheetName, colNum, rowNum)+"===");
 			}
 			System.out.println();
 		}
